@@ -1,0 +1,27 @@
+"/etc/sudoers.tmp" 35L, 976B                                                                                                                                 18,9-16       All
+#
+# This file MUST be edited with the 'visudo' command as root.
+#
+# Please consider adding local content in /etc/sudoers.d/ instead of
+# directly modifying this file.
+#
+# See the man page for details on how to write a sudoers file.
+#
+Defaults        env_reset
+Defaults        mail_badpass
+Defaults        secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin"
+
+#Defaults       secure_path="..."
+Defaults        passwd_tries=3
+Defaults        badpass_message="Password is wrong, please try again!"
+Defaults        logfile="/var/log/sudo/sudo.log"
+Defaults        log_input
+Defaults        log_output
+Defaults        requiretty
+# Host alias specification
+
+# User alias specification
+
+# Cmnd alias specification
+
+# User privilege specification
