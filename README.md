@@ -6,16 +6,16 @@
 
 # Born2beRoot
 
-VirtualBoxVMを使用し、Debian(Linux)をセットアップする課題
-・userのパスワードポリシー設定
-・sudo権限の設定
-・ufwの設定
-・sshの設定
-・cronの設定
-・シェルファイルの作成
-・ユーザー作成
-・グループ作成、追加
+VirtualBoxVMを使用し、Debian(Linux)をセットアップする課題<br>
+・userのパスワードポリシー設定<br>
+・sudo権限の設定<br>
+・ufwの設定<br>
+・sshの設定<br>
+・cronの設定<br>
+・シェルファイルの作成<br>
+・ユーザー作成<br>
+・グループ作成、追加<br>
 
-- hostname
+- hostname<br>
 
 
